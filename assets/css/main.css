@@ -174,7 +174,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2312,6 +2312,10 @@ input, select, textarea {
 				font-size: 1rem;
 			}
 
+			.icon.major:before {
+				font-size: 2rem;
+			}
+
 		}
 
 /* Image */
@@ -2563,7 +2567,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 0.75em 0 0;
+			padding: 0 3em 0 0;
 		}
 
 			ul.icons li:last-child {
@@ -2765,8 +2769,8 @@ input, select, textarea {
 				-ms-transition-delay: 0.75s;
 				transition-delay: 0.75s;
 				border-radius: 0;
-				width: 16em;
-				height: 17em;
+				width: 22em;
+				height: 18em;
 			}
 
 		.spotlight.alt {
@@ -3054,6 +3058,17 @@ input, select, textarea {
 		z-index: 10000;
 	}
 
+	.logo-image {
+		width: 300px;
+	}
+
+	.about, 
+	.focus {
+		text-align: center;
+		padding-bottom: 10px;
+		font-size: 1.5em;
+	}
+
 		#header a {
 			color: inherit;
 			font-size: 0.9em;
@@ -3154,6 +3169,10 @@ input, select, textarea {
 				width: 6em;
 				text-indent: 6em;
 				white-space: nowrap;
+			}
+
+			.logo-image {
+				width: 150px;
 			}
 
 		}
@@ -3290,7 +3309,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("../../film-set/film-set.jpg");
+		background: url("../../film-set/film-set.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
