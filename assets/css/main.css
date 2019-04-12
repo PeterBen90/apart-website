@@ -2254,7 +2254,7 @@ input, select, textarea {
 			background-color: #777777;
 		}
 
-		.icon.alt:active:before {
+		/* .icon.alt:active:before {
 			background-color: #38bbe4;
 		}
 
@@ -2304,7 +2304,7 @@ input, select, textarea {
 
 		.icon.alt.fa-instagram:active:before {
 			background-color: #479ace;
-		}
+		} */
 
 		@media screen and (max-width: 736px) {
 
@@ -2594,7 +2594,7 @@ input, select, textarea {
 
 		section header > :first-child, article header > :first-child {
 			display: inline-block;
-			border-bottom: solid 2px;
+			/* border-bottom: solid 2px; */
 			margin-bottom: 0.5em;
 			padding-bottom: 0.5em;
 		}
@@ -3060,10 +3060,17 @@ input, select, textarea {
 
 	.logo-image {
 		width: 300px;
+		margin-bottom: 40px;
+	}
+
+	.logo-image2 {
+		width: 200px;
+		margin-bottom: 40px;
 	}
 
 	.about, 
-	.focus {
+	.focus,
+	.video {
 		text-align: center;
 		padding-bottom: 10px;
 		font-size: 1.5em;
@@ -3572,7 +3579,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 8em 2em 4em 2em ;
+				padding: 20em 2em 18em 2em ;
 			}
 
 		}
@@ -3671,3 +3678,167 @@ input, select, textarea {
 		min-height: 100vh;
 		opacity: 1;
 	}
+
+	/* Video Modal Lightbox */
+
+.mm-product-video-modal-container {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  display: none;
+  overflow: scroll;
+}
+
+.mm-product-video-modal-container.open {
+  display: block;
+}
+
+.mm-product-video-modal-close:hover {
+  cursor: pointer;
+}
+
+.mm-product-video-modal-close {
+  color: #fff;
+  position: fixed;
+  z-index: 1000000000;
+  top: 20px;
+  right: 20px;
+  font-size: 40px;
+}
+
+.mm-launch {
+	font-size: 15px;
+}
+
+.mm-product-video-modal {
+  width: 60%;
+  max-height: 800px;
+  overflow: scroll;
+  position: relative;
+  top: -1000px;
+  border-radius: 4px;
+}
+
+.mm-product-video-modal.open {
+  top: 250px;
+  margin-bottom: 150px;
+}
+
+.mm-video-overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.dropper {
+    transition: top 0.5s ease-in-out;
+}
+
+/* Image Overlay */
+
+.image-container {
+	display: flex;
+	width: 100%;
+	padding: 4% 2%;
+	box-sizing: border-box;
+	height: 90vh;
+}
+.boxy {
+	flex: 1;
+	overflow: hidden;
+	transition: 0.5s;
+	margin: 0 2%;
+	box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
+	line-height: 0;
+	border-radius: 5px;
+}
+.creative,
+.digital {
+	width: 200%;
+	height: calc(100% - 10vh);
+	object-fit: cover;
+	transition: 0.5s;
+}
+.boxy > h2 {
+	font-size: 3vh;
+	display: block;
+	text-align: center;
+	height: 10vh;
+	line-height: 2.6;
+}
+.boxy:hover {
+	flex: 1 1 50%;
+}
+.boxy:hover > .creative .digital {
+	width: 100%;
+	height: 100%;
+}
+
+.boxy > a {
+	border-bottom: none;
+}
+
+/* Play Button */
+
+.container {
+	width: 100%;
+	text-align: center;
+}
+.circle {
+	stroke: #f8aa28;
+	stroke-dasharray: 650;
+	stroke-dashoffset: 650;
+	-webkit-transition: all 0.5s ease-in-out;
+	opacity: 0.3;
+}
+.playBut {
+ /* border: 1px solid red;
+ */
+	display: inline-block;
+	-webkit-transition: all 0.5s ease;
+	border-bottom: none;
+	cursor: pointer;
+}
+.playBut .triangle {
+	-webkit-transition: all 0.7s ease-in-out;
+	stroke-dasharray: 240;
+	stroke-dashoffset: 480;
+	stroke: #000;
+	transform: translateY(0);
+}
+.playBut:hover .triangle {
+	stroke-dashoffset: 0;
+	opacity: 1;
+	stroke: #f8aa28;
+	animation: nudge 0.7s ease-in-out;
+}
+@keyframes nudge {
+	0% {
+		transform: translateX(0);
+ }
+	30% {
+		transform: translateX(-5px);
+ }
+	50% {
+		transform: translateX(5px);
+ }
+	70% {
+		transform: translateX(-2px);
+ }
+	100% {
+		transform: translateX(0);
+ }
+}
+.playBut:hover .circle {
+	stroke-dashoffset: 0;
+	opacity: 1;
+}
+
