@@ -3178,7 +3178,8 @@ input, select, textarea {
 				white-space: nowrap;
 			}
 
-			.logo-image {
+			.logo-image,
+			.logo-image2 {
 				width: 150px;
 			}
 
