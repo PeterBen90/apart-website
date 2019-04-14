@@ -3808,8 +3808,6 @@ input, select, textarea {
 	opacity: 0.3;
 }
 .playBut {
- /* border: 1px solid red;
- */
 	display: inline-block;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;

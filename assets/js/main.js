@@ -167,4 +167,4 @@ jQuery('.mm-launch').on('click',function() {
   deployVideo();
 });
 
-document.getElementById("myVideo").controls = false;
+
