@@ -2248,6 +2248,7 @@ input, select, textarea {
 			line-height: 2.25em;
 			text-align: center;
 			width: 2.25em;
+			margin: -15px;
 		}
 
 		.icon.alt:hover:before {
@@ -2310,6 +2311,7 @@ input, select, textarea {
 
 			.icon.alt:before {
 				font-size: 1rem;
+				margin: 0;
 			}
 
 			.icon.major:before {
@@ -3066,6 +3068,10 @@ input, select, textarea {
 	.logo-image2 {
 		width: 200px;
 		margin-bottom: 40px;
+	}
+
+	.blurb {
+		text-align: center;
 	}
 
 	.about, 
