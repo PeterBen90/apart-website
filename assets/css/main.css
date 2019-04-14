@@ -3550,9 +3550,9 @@ input, select, textarea {
 		/* IMPORTANT */
 		@media screen and (max-width: 360px) {
 
-			#banner video {
+			/* #banner video {
 				display: none;
-			}
+			} */
 
 		}
 
@@ -3578,7 +3578,7 @@ input, select, textarea {
 				}
 
 				/* #banner .more {
-					display: none;
+					display: block;
 				} */
 
 		}
