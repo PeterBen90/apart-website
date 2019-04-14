@@ -3323,7 +3323,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background: url("../../film-set/film-set.jpg");
+		background: url("../../film-set/walking-image.png");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -3550,9 +3550,17 @@ input, select, textarea {
 		/* IMPORTANT */
 		@media screen and (max-width: 360px) {
 
-			/* #banner video {
+			#banner video {
 				display: none;
-			} */
+			}
+
+		}
+
+		@media screen and (max-width: 436px) {
+
+			#banner video {
+				display: none;
+			}
 
 		}
 
@@ -3577,9 +3585,9 @@ input, select, textarea {
 					display: none;
 				}
 
-				#banner .more {
+				/* #banner .more {
 					display: none;
-				}
+				} */
 
 		}
 
@@ -3594,8 +3602,9 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			#banner {
-				padding: 6em 2em 2em 2em ;
+				padding: 18em 2em 16em 2em ;
 			}
+			
 
 		}
 
