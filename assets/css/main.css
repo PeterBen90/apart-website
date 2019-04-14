@@ -3795,7 +3795,7 @@ input, select, textarea {
 
 /* Play Button */
 
-.container {
+.holder {
 	width: 100%;
 	text-align: center;
 }
