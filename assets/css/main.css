@@ -3550,17 +3550,17 @@ input, select, textarea {
 		/* IMPORTANT */
 		@media screen and (max-width: 360px) {
 
-			#banner video {
+			/* #banner video {
 				display: none;
-			}
+			} */
 
 		}
 
 		@media screen and (max-width: 436px) {
 
-			#banner video {
+			/* #banner video {
 				display: none;
-			}
+			} */
 
 		}
 
