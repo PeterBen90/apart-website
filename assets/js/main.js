@@ -74,6 +74,7 @@
 
 		}
 
+
 	// Spotlights.
 		var $spotlight = $('.spotlight');
 

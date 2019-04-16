@@ -42,7 +42,7 @@
 				</header>
 			</div>
 			<a href="#one" class="more">Learn More</a>
-			<video controls autoplay loop muted playsinline>
+			<video id="myVideo" controls autoplay loop muted playsinline>
 				<source src="film-set/walking.mp4" type="video/mp4" />
 			</video>
 		</section>
@@ -151,6 +151,13 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script>
+
+		var mobilevideo = document.getElementsByTagName("video")[0];
+		mobilevideo.setAttribute("playsinline", "");
+		mobilevideo.setAttribute("muted", "");
+
+	</script>
 
 </body>
 
