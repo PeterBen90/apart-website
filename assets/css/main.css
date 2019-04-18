@@ -3736,7 +3736,8 @@ input, select, textarea {
 
 .mm-product-video-modal.open {
   top: 250px;
-  margin-bottom: 150px;
+	margin-bottom: 150px;
+	overflow: hidden;
 }
 
 .mm-video-overlay {
