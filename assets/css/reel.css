@@ -4623,6 +4623,11 @@ input, select, textarea {
 						justify-content: center;
 					}
 
+					.apart-logo {
+						margin-left: 37% !important;
+						margin-bottom: 30px;
+					}
+
 		}
 
 		body.is-preload #banner .inner {
@@ -4665,8 +4670,9 @@ input, select, textarea {
 
 	.apart-logo {
 		width: 100px;
-		margin-left: 80% !important;
+		margin-left: 90%;
 		margin-top: 40px;
+		cursor: pointer;
 	}
 
 	.logo-head {
@@ -4683,6 +4689,7 @@ input, select, textarea {
 
 	#main {
 		margin-top: 0 !important;
+		padding-top: 0 !important;
 	}
 
 	body 
