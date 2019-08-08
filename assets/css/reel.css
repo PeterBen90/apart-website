@@ -3693,8 +3693,8 @@ input, select, textarea {
 			letter-spacing: 0.25rem;
 			padding: 0 0.75rem;
 			text-decoration: none;
-			margin-top: 42px;
-			margin-right: 80px;
+			margin-top: 30px;
+			margin-right: 250px;
 			height: 50px;
 		}
 
@@ -3870,8 +3870,40 @@ input, select, textarea {
 				#header + #banner {
 					margin-top: -5rem;
 				}
+				
+				#header > a {
+					margin-right: -5px;
+					margin-top: -1px;
+				}
 
 		}
+
+
+		@media screen and (min-width: 768px) {
+
+			.apart-logo {
+				margin-left: 78% !important;
+			}
+
+			#header > a {
+				margin-right: 45px !important;
+				margin-top: 45px !important;
+			}
+		
+	}
+
+	@media screen and (min-width: 1024px) {
+
+		.apart-logo {
+			margin-left: 78% !important;
+		}
+
+		#header > a {
+			margin-right: 90px !important;
+			margin-top: 45px !important;
+		}
+	
+}
 
 /* Menu */
 
