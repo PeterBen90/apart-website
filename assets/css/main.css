@@ -3856,3 +3856,22 @@ input, select, textarea {
 	opacity: 1;
 }
 
+.reel {
+	text-align: center;
+	color: black;
+	font-size: 2em;
+	margin-bottom: 5px;
+}
+
+.boxy > h2:hover {
+	color: black;
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.fa-film {
+	position: relative;
+	bottom: 3px;
+}
+
+
