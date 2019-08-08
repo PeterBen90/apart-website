@@ -3914,6 +3914,18 @@ input, select, textarea {
 		}
 	
 }
+@media screen and (min-width: 1030px) {
+
+	.apart-logo {
+		margin-left: 78% !important;
+	}
+
+	#header > a {
+		margin-right: 410px !important;
+		margin-top: 32px !important;
+	}
+
+}
 
 /* Menu */
 
