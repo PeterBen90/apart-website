@@ -3693,6 +3693,9 @@ input, select, textarea {
 			letter-spacing: 0.25rem;
 			padding: 0 0.75rem;
 			text-decoration: none;
+			margin-top: 42px;
+			margin-right: 80px;
+			height: 50px;
 		}
 
 			#header > a:hover, #header > a:focus {
@@ -3773,7 +3776,7 @@ input, select, textarea {
 
 		#header.alt {
 			background-color: transparent;
-			border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+			border-bottom: none;
 			color: #ffffff;
 			position: absolute;
 		}
@@ -3783,7 +3786,7 @@ input, select, textarea {
 			}
 
 			#header.alt > a[href="#menu"] {
-				border-left: 1px solid rgba(255, 255, 255, 0.25);
+				border-left: none;
 			}
 
 				#header.alt > a[href="#menu"]:hover, #header.alt > a[href="#menu"]:focus {
@@ -3791,11 +3794,11 @@ input, select, textarea {
 				}
 
 					#header.alt > a[href="#menu"]:hover:before, #header.alt > a[href="#menu"]:focus:before {
-						background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 6px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='10' y1='30' x2='90' y2='30' /%3E%3Cline x1='10' y1='50' x2='90' y2='50' /%3E%3Cline x1='10' y1='70' x2='90' y2='70' /%3E%3C/svg%3E");
+						background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 6px%3B stroke: %23000000%3B %7D%3C/style%3E%3Cline x1='10' y1='30' x2='90' y2='30' /%3E%3Cline x1='10' y1='50' x2='90' y2='50' /%3E%3Cline x1='10' y1='70' x2='90' y2='70' /%3E%3C/svg%3E");
 					}
 
 				#header.alt > a[href="#menu"]:before {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 6px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='10' y1='30' x2='90' y2='30' /%3E%3Cline x1='10' y1='50' x2='90' y2='50' /%3E%3Cline x1='10' y1='70' x2='90' y2='70' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 6px%3B stroke: %23000000%3B %7D%3C/style%3E%3Cline x1='10' y1='30' x2='90' y2='30' /%3E%3Cline x1='10' y1='50' x2='90' y2='50' /%3E%3Cline x1='10' y1='70' x2='90' y2='70' /%3E%3C/svg%3E");
 				}
 
 		#header + #banner {
@@ -3934,7 +3937,7 @@ input, select, textarea {
 			opacity: 0;
 			position: relative;
 			text-transform: uppercase;
-			width: 34rem;
+			width: 25rem;
 			height: 30rem;
 		}
 
@@ -4696,6 +4699,10 @@ input, select, textarea {
 		color: #8e8e8e;
 		-webkit-transition: all 0.5s ease-in-out;
 		transition: all 0.5s ease-in-out;
+	}
+
+	#header > .logo {
+		color: BLACK;
 	}
 	
 
