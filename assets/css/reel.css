@@ -3863,6 +3863,16 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			.bottom-nav {
+				font-size: 40px !important;
+			}
+
+		}
+
+
+
+		@media screen and (max-width: 480px) {
+
 			#header {
 				min-width: 320px;
 			}
@@ -4719,6 +4729,9 @@ input, select, textarea {
 		margin-bottom: -100px;
 		font-size: 100px;
 		text-align: center;
+		background: #f9f9f9;
+		padding-bottom: 60px;
+		padding-top: 20px;
 	}
 
 	.bnav {
@@ -4759,5 +4772,5 @@ input, select, textarea {
 	}
 
 	.construction {
-		padding-bottom: 500px;
+		padding-bottom: 400px;
 	}
