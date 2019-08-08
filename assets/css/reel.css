@@ -4679,6 +4679,24 @@ input, select, textarea {
 		background: #f9f9f9;
 	}
 
+	.bottom-nav {
+		margin-top: -30px;
+		margin-bottom: -100px;
+		font-size: 100px;
+		text-align: center;
+	}
+
+	.bnav {
+		margin-left: 10px;
+		margin-right: 10px;
+		cursor: pointer;
+	}
+
+	.bnav:hover {
+		color: #8e8e8e;
+		-webkit-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
+	}
 	
 
 	/* TEMP STYLES */
@@ -4699,4 +4717,8 @@ input, select, textarea {
 
 	header.major {
 		margin-bottom: 0 !important;
+	}
+
+	.construction {
+		padding-bottom: 500px;
 	}
