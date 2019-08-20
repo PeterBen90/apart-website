@@ -3909,7 +3909,6 @@ input, select, textarea {
 		}
 
 		#header > a {
-			margin-right: 90px !important;
 			margin-top: 45px !important;
 		}
 	
@@ -3921,7 +3920,6 @@ input, select, textarea {
 	}
 
 	#header > a {
-		margin-right: 410px !important;
 		margin-top: 32px !important;
 	}
 
@@ -4641,6 +4639,7 @@ input, select, textarea {
 					padding-top: 2rem;
 				}
 
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -4713,6 +4712,22 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 480px) {
+
+			#main {
+				padding-top: 6rem !important;
+			}
+
+		}
+
+		@media screen and (min-width: 480px) {
+
+			.apart-logo2 {
+				display: none;
+			}
+
+		}
+
 /* Footer */
 
 	.copyright {
@@ -4728,8 +4743,15 @@ input, select, textarea {
 	.apart-logo {
 		width: 100px;
 		margin-left: 90%;
-		margin-top: 40px;
+		margin-top: 30px;
+		margin-right: 350px;
 		cursor: pointer;
+	}
+
+	.apart-logo2 {
+		width: 100px;
+		margin-right: 38%;
+		margin-top: 10%;
 	}
 
 	.logo-head {
@@ -4771,7 +4793,6 @@ input, select, textarea {
 
 	#main {
 		margin-top: 0 !important;
-		padding-top: 0 !important;
 	}
 
 	body 
