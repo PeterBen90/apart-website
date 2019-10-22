@@ -193,7 +193,7 @@ input, select, textarea {
 	}
 
 	h1 {
-		font-size: 2.5em;
+		font-size: 4em;
 	}
 
 	h2 {
@@ -292,16 +292,16 @@ input, select, textarea {
 		color: #777777;
 	}
 
-	a:hover {
+	/* a:hover {
 		color: black !important;
-	}
+	} */
 
 	strong, b {
 		color: #777777;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777777;
+		color: #eaeaea;
 	}
 
 	blockquote {
@@ -3141,6 +3141,7 @@ input, select, textarea {
 				background-image: url("images/menu-alt.svg");
 			}
 
+
 		#header.with-banner + #banner {
 			margin-top: -3.5em;
 		}
@@ -3872,6 +3873,34 @@ input, select, textarea {
 .fa-film {
 	position: relative;
 	bottom: 3px;
+}
+
+.photography {
+	background: url(images/creative.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.videography {
+	background: url(images/video.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.design {
+	background: url(images/design.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#four {
+	height: 200px !important;
 }
 
 

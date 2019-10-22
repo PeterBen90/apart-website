@@ -163,4 +163,8 @@ jQuery('.mm-launch').on('click',function() {
   deployVideo();
 });
 
-
+$(function () {
+	$.scrollify({
+		section: "section",
+	});
+});
