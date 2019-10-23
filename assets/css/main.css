@@ -3917,7 +3917,7 @@ input, select, textarea {
 }
 
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
 	.photography {
 		-webkit-background-size: 100%; 
 		-moz-background-size: 100%; 
@@ -3950,4 +3950,4 @@ input, select, textarea {
 		-o-background-size: auto; 
 		background-size: auto;
 	}
-}
+} */
