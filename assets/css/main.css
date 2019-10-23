@@ -3919,14 +3919,35 @@ input, select, textarea {
 
 @media (max-width: 480px) {
 	.photography {
-		width: 480px !important;
+		-webkit-background-size: 100%; 
+		-moz-background-size: 100%; 
+		-o-background-size: 100%; 
+		background-size: 100%; 
+		-webkit-background-size: auto; 
+		-moz-background-size: auto; 
+		-o-background-size: auto; 
+		background-size: auto;
 	}
 
 	.videography {
-		width: 480px !important;
+		-webkit-background-size: 100%; 
+		-moz-background-size: 100%; 
+		-o-background-size: 100%; 
+		background-size: 100%; 
+		-webkit-background-size: auto; 
+		-moz-background-size: auto; 
+		-o-background-size: auto; 
+		background-size: auto;
 	}
 
 	.design {
-		width: 480px !important;
+		-webkit-background-size: 100%; 
+		-moz-background-size: 100%; 
+		-o-background-size: 100%; 
+		background-size: 100%; 
+		-webkit-background-size: auto; 
+		-moz-background-size: auto; 
+		-o-background-size: auto; 
+		background-size: auto;
 	}
 }
