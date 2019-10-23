@@ -3877,45 +3877,69 @@ input, select, textarea {
 
 .photography {
 	background: url(images/creative.jpg) no-repeat center center fixed; 
-  -webkit-background-size: 100%; 
-    -moz-background-size: 100%; 
-    -o-background-size: 100%; 
-    background-size: 100%; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover;
+  padding: 8em 0 6em 0 ;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		border-top: 0;
+		min-height: 100vh;
+		position: relative;
+		overflow: hidden;
+		
 }
 
 .videography {
 	background: url(images/video.jpeg) no-repeat center center fixed; 
-  -webkit-background-size: 100%; 
-    -moz-background-size: 100%; 
-    -o-background-size: 100%; 
-    background-size: 100%; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover;
+	padding: 8em 0 6em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;
 }
 
 .design {
 	background: url(images/design.jpg) no-repeat center center fixed; 
-  -webkit-background-size: 100%; 
-    -moz-background-size: 100%; 
-    -o-background-size: 100%; 
-    background-size: 100%; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover;
-}
+	padding: 8em 0 6em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;
 
 #four {
 	height: 200px !important;
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
 	.photography {
 		background: url(images/creative.jpg) no-repeat center center fixed; 
   	-webkit-background-size: 100%; 
@@ -3951,4 +3975,4 @@ input, select, textarea {
 			-o-background-size: cover; 
 			background-size: cover;
 	}
-}
+} */
