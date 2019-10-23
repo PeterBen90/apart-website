@@ -3976,9 +3976,81 @@ input, select, textarea {
 	overflow: hidden;
 }
 
+.videography {
+	background-color: black;
+	color: rgba(255, 255, 255, 0.75);
+	padding: 8em 0 6em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background: url("images/video.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+
+.design {
+	background-color: black;
+	color: rgba(255, 255, 255, 0.75);
+	padding: 8em 0 6em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background: url("images/design.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+
 
 
 	.photography .inner {
+		-moz-transform: scale(1.0);
+		-webkit-transform: scale(1.0);
+		-ms-transform: scale(1.0);
+		transform: scale(1.0);
+		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+		transition: opacity 1s ease, transform 1s ease;
+		opacity: 1;
+		position: relative;
+		z-index: 2;
+	}
+
+	.videography .inner {
+		-moz-transform: scale(1.0);
+		-webkit-transform: scale(1.0);
+		-ms-transform: scale(1.0);
+		transform: scale(1.0);
+		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+		transition: opacity 1s ease, transform 1s ease;
+		opacity: 1;
+		position: relative;
+		z-index: 2;
+	}
+
+	.design .inner {
 		-moz-transform: scale(1.0);
 		-webkit-transform: scale(1.0);
 		-ms-transform: scale(1.0);
@@ -3996,32 +4068,35 @@ input, select, textarea {
 		font-size: 2.75em;
 	}
 
+	.videography h1 {
+		font-size: 2.75em;
+	}
+
+	.design h1 {
+		font-size: 2.75em;
+	}
+
 
 	/* IMPORTANT */
-	@media screen and (max-width: 360px) {
-
-		/* #banner video {
-			display: none;
-		} */
-
-	}
-
-	@media screen and (max-width: 436px) {
-
-		/* #banner video {
-			display: none;
-		} */
-
-	}
 
 	@media screen and (max-width: 736px) {
 
-		.photography {
+		.photography,
+		.videography,
+		.design {
 			padding: 6em 2em 2em 2em ;
 			min-height: 0;
 		}
 
 			.photography .inner {
+				width: 100%;
+			}
+
+			.videography .inner {
+				width: 100%;
+			}
+
+			.design .inner {
 				width: 100%;
 			}
 
@@ -4031,13 +4106,29 @@ input, select, textarea {
 				padding-bottom: 0.75em;
 			}
 
+			.videography h1 {
+				font-size: 1.75em;
+				margin-bottom: 0.75em;
+				padding-bottom: 0.75em;
+			}
+
+			.videography h1 {
+				font-size: 1.75em;
+				margin-bottom: 0.75em;
+				padding-bottom: 0.75em;
+			}
+
 			.photography br {
 				display: none;
 			}
 
-			/* #banner .more {
+			.videography br {
 				display: none;
-			} */
+			}
+
+			.design br {
+				display: none;
+			}
 
 	}
 
