@@ -3919,14 +3919,14 @@ input, select, textarea {
 
 @media (max-width: 480px) {
 	.photography {
-		background: url(images/creative-mobile.jpg) no-repeat center center fixed; 
-		-webkit-background-size: 100%; 
-		-moz-background-size: 100%; 
-		-o-background-size: 100%; 
-		background-size: 100%; 
-		-webkit-background-size: cover; 
-		-moz-background-size: cover; 
-		-o-background-size: cover; 
-		background-size: cover;
+		width: 480px !important;
+	}
+
+	.videography {
+		width: 480px !important;
+	}
+
+	.design {
+		width: 480px !important;
 	}
 }
