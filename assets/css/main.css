@@ -3875,7 +3875,7 @@ input, select, textarea {
 	bottom: 3px;
 }
 
-.photography {
+/* .photography {
 	background: url(images/creative.jpg) no-repeat center center fixed; 
 	-webkit-background-size: 100%; 
 	-moz-background-size: 100%; 
@@ -3909,7 +3909,7 @@ input, select, textarea {
 		-moz-background-size: cover; 
 		-o-background-size: cover; 
 		background-size: cover;
-}
+} */
 
 
 #four {
@@ -3951,3 +3951,109 @@ input, select, textarea {
 		background-size: auto;
 	}
 } */
+
+/* Photography */
+
+.photography {
+	background-color: black;
+	color: rgba(255, 255, 255, 0.75);
+	padding: 8em 0 6em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background: url("images/creative.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+	.photography .inner {
+		-moz-transform: scale(1.0);
+		-webkit-transform: scale(1.0);
+		-ms-transform: scale(1.0);
+		transform: scale(1.0);
+		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+		transition: opacity 1s ease, transform 1s ease;
+		opacity: 1;
+		position: relative;
+		z-index: 2;
+	}
+
+	.photography h1 {
+		font-size: 2.75em;
+	}
+
+
+	/* IMPORTANT */
+	@media screen and (max-width: 360px) {
+
+		/* #banner video {
+			display: none;
+		} */
+
+	}
+
+	@media screen and (max-width: 436px) {
+
+		/* #banner video {
+			display: none;
+		} */
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.photography {
+			padding: 6em 2em 2em 2em ;
+			min-height: 0;
+		}
+
+			.photography .inner {
+				width: 100%;
+			}
+
+			.photography h1 {
+				font-size: 1.75em;
+				margin-bottom: 0.75em;
+				padding-bottom: 0.75em;
+			}
+
+			.photography br {
+				display: none;
+			}
+
+			/* #banner .more {
+				display: none;
+			} */
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		.photography {
+			padding: 18em 2em 16em 2em ;
+		}
+
+	}
+
+	@media screen and (max-width: 360px) {
+
+		.photography {
+			padding: 18em 2em 16em 2em ;
+		}
+		
+
+	}
