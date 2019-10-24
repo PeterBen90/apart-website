@@ -4138,10 +4138,6 @@ input, select, textarea {
 			padding: 18em 2em 16em 2em ;
 		}
 
-		#banner {
-			height: 738px !important;
-		}
-
 	}
 
 	@media screen and (max-width: 360px) {
