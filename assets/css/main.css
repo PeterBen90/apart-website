@@ -3328,6 +3328,7 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 		overflow: hidden;
+		height: 745px !important;
 	}
 
 		#banner input[type="submit"],
@@ -3952,7 +3953,7 @@ input, select, textarea {
 	}
 } */
 
-/* Photography */
+/* Photography Videography Design */
 
 .photography {
 	background-color: black;
@@ -4101,19 +4102,19 @@ input, select, textarea {
 			}
 
 			.photography h1 {
-				font-size: 1.75em;
+				font-size: 2em;
 				margin-bottom: 0.75em;
 				padding-bottom: 0.75em;
 			}
 
 			.videography h1 {
-				font-size: 1.75em;
+				font-size: 2em;
 				margin-bottom: 0.75em;
 				padding-bottom: 0.75em;
 			}
 
-			.videography h1 {
-				font-size: 1.75em;
+			.design h1 {
+				font-size: 2em;
 				margin-bottom: 0.75em;
 				padding-bottom: 0.75em;
 			}
