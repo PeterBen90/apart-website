@@ -3328,7 +3328,6 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 		overflow: hidden;
-		height: 740px !important;
 	}
 
 		#banner input[type="submit"],
@@ -4137,6 +4136,10 @@ input, select, textarea {
 
 		.photography {
 			padding: 18em 2em 16em 2em ;
+		}
+
+		#banner {
+			height: 738px !important;
 		}
 
 	}
