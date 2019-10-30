@@ -175,7 +175,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 500;
 		line-height: 1.5;
-		margin: 0 0 1em 0;
+		margin: 0 0 0.5em 0;
 		font-weight: 500;
 		letter-spacing: 0.25em;
 		text-transform: uppercase;
@@ -1895,7 +1895,7 @@ input, select, textarea {
 	.button {
 		background-color: transparent;
 		box-shadow: inset 0 0 0 2px #eaeaea;
-		color: #777777 !important;
+		color: #fff !important;
 	}
 
 		input[type="submit"]:hover,
@@ -1904,7 +1904,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			box-shadow: inset 0 0 0 2px black;
-			color: black !important;
+			background-color: black !important;
 		}
 
 		input[type="submit"]:active,
@@ -2234,20 +2234,24 @@ input, select, textarea {
 			-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-			background-color: black;
+			/* background-color: black; */
 			border-radius: 100%;
-			color: #ffffff;
+			color:black;
 			display: inline-block;
-			font-size: 1.5rem;
+			font-size: 2.25rem;
 			height: 2.25em;
 			line-height: 2.25em;
 			text-align: center;
 			width: 2.25em;
-			margin: -15px;
+			margin: -25px;
+		}
+
+		.footer-copy {
+			color: black;
 		}
 
 		.icon.alt:hover:before {
-			background-color: #777777;
+			color: #777777;
 		}
 
 		/* .icon.alt:active:before {
@@ -3541,6 +3545,7 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 			z-index: 1;
+			
 		}
 
 		/* IMPORTANT */
@@ -3966,7 +3971,10 @@ input, select, textarea {
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
 	justify-content: center;
-	background: url("images/creative.jpg");
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	),url("images/creative.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -3974,6 +3982,7 @@ input, select, textarea {
 	min-height: 100vh;
 	position: relative;
 	overflow: hidden;
+	
 }
 
 .videography {
@@ -3988,7 +3997,10 @@ input, select, textarea {
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
 	justify-content: center;
-	background: url("images/video.jpeg");
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	), url("images/video.jpeg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4010,7 +4022,10 @@ input, select, textarea {
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
 	justify-content: center;
-	background: url("images/design.jpg");
+	background:linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	), url("images/design.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4018,6 +4033,32 @@ input, select, textarea {
 	min-height: 100vh;
 	position: relative;
 	overflow: hidden;
+}
+
+.clients {
+	background-color: rgb(44, 43, 43);
+	color: rgba(255, 255, 255, 0.75);
+	padding: 8em 0 6em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	),url("images/slide01.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;
+	
 }
 
 
@@ -4064,22 +4105,50 @@ input, select, textarea {
 		z-index: 2;
 	}
 
+	.clients .inner {
+		-moz-transform: scale(1.0);
+		-webkit-transform: scale(1.0);
+		-ms-transform: scale(1.0);
+		transform: scale(1.0);
+		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+		transition: opacity 1s ease, transform 1s ease;
+		opacity: 1;
+		position: relative;
+		z-index: 2;
+	}
+
 	.photography h1 {
 		font-size: 2.75em;
+		margin-top: 20px;
 	}
 
 	.videography h1 {
 		font-size: 2.75em;
+		margin-top: 20px;
 	}
 
 	.design h1 {
 		font-size: 2.75em;
+		margin-top: 20px;
+	}
+
+	.clients h1 {
+		font-size: 2.75em;
+		margin-top: 20px;
+	}
+
+	.sub-title {
+		width: 40%;
+		border-top: 2px solid #ffffff;
+		padding-top: 30px;
 	}
 
 
 	/* IMPORTANT */
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 768px) {
 
 		.photography,
 		.videography,
@@ -4100,22 +4169,40 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.clients .inner {
+				width: 100%;
+			}
+
 			.photography h1 {
-				font-size: 2em;
-				margin-bottom: 0.75em;
-				padding-bottom: 0.75em;
+				font-size: 3.5em;
+				margin-bottom: 0.2em;
+				padding-bottom: 0.5em;
+				margin-top: 50px;
 			}
 
 			.videography h1 {
-				font-size: 2em;
-				margin-bottom: 0.75em;
-				padding-bottom: 0.75em;
+				font-size: 3.5em;
+				margin-bottom: 0.2em;
+				padding-bottom: 0.5em;
 			}
 
 			.design h1 {
-				font-size: 2em;
-				margin-bottom: 0.75em;
-				padding-bottom: 0.75em;
+				font-size: 3.5em;
+				margin-bottom: 0.2em;
+				padding-bottom: 0.5em;
+			}
+
+			.clients h1 {
+				font-size: 3.5em;
+				margin-bottom: 0.2em;
+				padding-bottom: 0.5em;
+			}
+
+			.sub-title {
+				width: 60%;
+				border-top: 2px solid #ffffff;
+				padding-top: 40px;
+				font-size: 1.75em;
 			}
 
 			.photography br {
@@ -4130,6 +4217,10 @@ input, select, textarea {
 				display: none;
 			}
 
+			.clients br {
+				display: none;
+			}
+
 	}
 
 	@media screen and (max-width: 480px) {
@@ -4138,6 +4229,57 @@ input, select, textarea {
 			padding: 18em 2em 16em 2em ;
 		}
 
+		.sub-header {
+			text-align: center;
+			margin-top: 50% !important;
+		}
+
+		.sub-title {
+			width: 80%;
+			border-top: 2px solid #ffffff;
+			padding-top: 30px;
+			text-align: center;
+			font-size: 1em;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+
+		.photography h1 {
+			font-size: 2em;
+			margin-bottom: 0.2em;
+			padding-bottom: 0.5em;
+			margin-top: 50px;
+		}
+
+		.videography h1 {
+			font-size: 2em;
+			margin-bottom: 0.2em;
+			padding-bottom: 0.5em;
+		}
+
+		.design h1 {
+			font-size: 2em;
+			margin-bottom: 0.2em;
+			padding-bottom: 0.5em;
+		}
+
+		.clients h1 {
+			font-size: 2em;
+			margin-bottom: 0.2em;
+			padding-bottom: 0.5em;
+		}
+
+		.red-bull,
+		.roots,
+		.vice,
+		.plus,
+		.uber,
+		.lost {
+			width: 100px !important;
+		}
+
+		
+
 	}
 
 	@media screen and (max-width: 360px) {
@@ -4145,6 +4287,52 @@ input, select, textarea {
 		.photography {
 			padding: 18em 2em 16em 2em ;
 		}
-		
 
 	}
+
+	.button {
+		margin-top: 20px;
+	}
+
+	/* Select Clients */
+
+	.red-bull,
+	.roots,
+	.vice,
+	.plus,
+	.uber,
+	.lost {
+		width: 150px;
+		margin: 5px;
+	}
+
+	.roots {
+		position: relative;
+		top: 5px;
+	}
+
+	.vice {
+		position: relative;
+		bottom: 10px;
+	}
+
+	.plus {
+		position: relative;
+		top: 30px;
+	}
+
+	.uber {
+		position: relative;
+		bottom: 13px;
+	}
+
+	.lost {
+		position: relative;
+		top: 30px;
+	}
+
+
+
+
+
+
