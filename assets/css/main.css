@@ -2309,8 +2309,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.icon.alt:before {
-				font-size: 1rem;
-				margin: 0;
+				font-size: 1.5rem;
+				margin: -5px;
 			}
 
 			.icon.major:before {
@@ -3917,7 +3917,7 @@ input, select, textarea {
 } */
 
 
-#four {
+#five {
 	height: 200px !important;
 }
 
@@ -4050,7 +4050,7 @@ input, select, textarea {
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
-	),url("images/slide01.jpg");
+	),url("images/slide04.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4152,7 +4152,8 @@ input, select, textarea {
 
 		.photography,
 		.videography,
-		.design {
+		.design,
+		.clients {
 			padding: 6em 2em 2em 2em ;
 			min-height: 0;
 		}
@@ -4225,13 +4226,21 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
-		.photography {
+		.photography, 
+		.videography,
+		.design,
+		.clients {
 			padding: 18em 2em 16em 2em ;
 		}
 
 		.sub-header {
 			text-align: center;
 			margin-top: 50% !important;
+		}
+
+		.client-header {
+			text-align: center;
+			margin-top: 20% !important;
 		}
 
 		.sub-title {
@@ -4284,7 +4293,10 @@ input, select, textarea {
 
 	@media screen and (max-width: 360px) {
 
-		.photography {
+		.photography,
+		.videography,
+		.design,
+		.clients {
 			padding: 18em 2em 16em 2em ;
 		}
 
