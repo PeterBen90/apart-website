@@ -4138,6 +4138,7 @@ input, select, textarea {
 		font-size: 2.75em;
 		margin-top: 20px;
 		color: black;
+		text-align: center;
 	}
 
 	.sub-title {
@@ -4149,6 +4150,9 @@ input, select, textarea {
 	.sub-title-clients {
 		width: 40%;
 		border-top: 2px solid black;
+		text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
 	}
 
 
@@ -4216,6 +4220,8 @@ input, select, textarea {
 				width: 70%;
 				border-top: 2px solid black;
 				padding-top: 30px;
+				margin-left: 15%;
+    		margin-right: 15%;
 			}
 
 			.photography br {
@@ -4238,8 +4244,8 @@ input, select, textarea {
 				width: 150px !important;
 			}
 
-			.client-images {
-				width: 100% !important;
+			.ritz {
+				margin-left: 30px;
 			}
 
 
@@ -4256,6 +4262,8 @@ input, select, textarea {
 
 		.client-images {
 			width: 100% !important;
+			margin-left: 0 !important;
+			margin-right: 0 !important;
 		}
 
 		.sub-header {
@@ -4421,6 +4429,10 @@ input, select, textarea {
 
 	.client-images {
 		width: 80%;
+		text-align: center;
+    margin-right: 10%;
+		margin-left: 10%;
+		margin-top: -20px;
 	}
 
 
