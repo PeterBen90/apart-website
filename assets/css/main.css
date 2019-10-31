@@ -2545,7 +2545,7 @@ input, select, textarea {
 					ul.actions:not(.fixed) li input[type="button"],
 					ul.actions:not(.fixed) li button,
 					ul.actions:not(.fixed) li .button {
-						width: 100%;
+						width: 60%;
 					}
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
@@ -4036,7 +4036,7 @@ input, select, textarea {
 }
 
 .clients {
-	background-color: rgb(44, 43, 43);
+	/* background-color: rgb(44, 43, 43); */
 	color: rgba(255, 255, 255, 0.75);
 	padding: 8em 0 6em 0 ;
 	display: -moz-flex;
@@ -4047,10 +4047,10 @@ input, select, textarea {
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
 	justify-content: center;
-	background: linear-gradient(
+	/* background: linear-gradient(
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
-	),url("images/slide04.jpg");
+	); */
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4137,12 +4137,18 @@ input, select, textarea {
 	.clients h1 {
 		font-size: 2.75em;
 		margin-top: 20px;
+		color: black;
 	}
 
 	.sub-title {
 		width: 40%;
 		border-top: 2px solid #ffffff;
 		padding-top: 30px;
+	}
+
+	.sub-title-clients {
+		width: 40%;
+		border-top: 2px solid black;
 	}
 
 
@@ -4204,6 +4210,12 @@ input, select, textarea {
 				border-top: 2px solid #ffffff;
 				padding-top: 40px;
 				font-size: 1.75em;
+			} 
+
+			.sub-title-clients {
+				width: 70%;
+				border-top: 2px solid black;
+				padding-top: 30px;
 			}
 
 			.photography br {
@@ -4222,6 +4234,15 @@ input, select, textarea {
 				display: none;
 			}
 
+			.raptors {
+				width: 150px !important;
+			}
+
+			.client-images {
+				width: 100% !important;
+			}
+
+
 	}
 
 	@media screen and (max-width: 480px) {
@@ -4233,9 +4254,13 @@ input, select, textarea {
 			padding: 18em 2em 16em 2em ;
 		}
 
+		.client-images {
+			width: 100% !important;
+		}
+
 		.sub-header {
 			text-align: center;
-			margin-top: 50% !important;
+			margin-top: 40% !important;
 		}
 
 		.client-header {
@@ -4246,6 +4271,16 @@ input, select, textarea {
 		.sub-title {
 			width: 80%;
 			border-top: 2px solid #ffffff;
+			padding-top: 30px;
+			text-align: center;
+			font-size: 1em;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+
+		.sub-title-clients {
+			width: 80%;
+			border-top: 2px solid black;
 			padding-top: 30px;
 			text-align: center;
 			font-size: 1em;
@@ -4283,8 +4318,36 @@ input, select, textarea {
 		.vice,
 		.plus,
 		.uber,
-		.lost {
+		.raptors,
+		.ritz {
 			width: 100px !important;
+		}
+
+		.lost {
+			width: 190px !important;
+		}
+
+		.ritz {
+			margin-left: 40px !important;
+		}
+
+		.client-images {
+			text-align: center;
+		}
+
+		.raptors {
+			position: relative !important;
+			top: 5px !important;
+		}
+
+		.plus {
+			position: relative !important;
+			top: 20px !important;
+		}
+
+		.lost {
+			position: relative !important;
+			bottom: 5px !important;
 		}
 
 		
@@ -4313,9 +4376,22 @@ input, select, textarea {
 	.vice,
 	.plus,
 	.uber,
-	.lost {
+	.ritz {
 		width: 150px;
 		margin: 5px;
+		margin-top: 20px;
+	}
+
+	.raptors {
+		width: 200px;
+		margin-left: -10px;
+		margin-top: 10px;
+	}
+
+	.lost {
+		width: 250px;
+		margin-left: -50px;
+		margin-top: 10px;
 	}
 
 	.roots {
@@ -4338,10 +4414,15 @@ input, select, textarea {
 		bottom: 13px;
 	}
 
-	.lost {
+	.raptors {
 		position: relative;
-		top: 30px;
+		top: 25px;
 	}
+
+	.client-images {
+		width: 80%;
+	}
+
 
 
 
