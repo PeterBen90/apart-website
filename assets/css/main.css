@@ -4000,7 +4000,7 @@ input, select, textarea {
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
-	), url("images/video.jpeg");
+	), url("images/videoheader.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4025,7 +4025,7 @@ input, select, textarea {
 	background:linear-gradient(
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
-	), url("images/design.jpg");
+	), url("images/designheader.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4240,15 +4240,6 @@ input, select, textarea {
 				display: none;
 			}
 
-			.raptors {
-				width: 150px !important;
-			}
-
-			.ritz {
-				margin-left: 30px;
-			}
-
-
 	}
 
 	@media screen and (max-width: 480px) {
@@ -4320,45 +4311,41 @@ input, select, textarea {
 			margin-bottom: 0.2em;
 			padding-bottom: 0.5em;
 		}
-
-		.red-bull,
-		.roots,
-		.vice,
-		.plus,
-		.uber,
-		.raptors,
-		.ritz {
-			width: 100px !important;
-		}
-
-		.lost {
-			width: 190px !important;
-		}
-
-		.ritz {
-			margin-left: 40px !important;
-		}
-
-		.client-images {
-			text-align: center;
-		}
-
-		.raptors {
-			position: relative !important;
-			top: 5px !important;
-		}
-
-		.plus {
-			position: relative !important;
-			top: 20px !important;
-		}
-
-		.lost {
-			position: relative !important;
-			bottom: 5px !important;
-		}
-
 		
+		.img1 { 
+			flex: 1.45;
+			margin-top: 30px;
+		}
+		.img2 { 
+			margin-top: 28px !important; 
+		}
+		.img3 { 
+			margin-top: 23px !important; 
+		}
+		.img4 { 
+			margin-top: 30px !important;			
+		}
+		.img5 { 
+			margin-top: 30px !important;
+		}
+		.img6 { 
+			margin-top: 25px;
+		}
+		.img7 { 
+			margin-top: 25px;
+		}
+		.img8 { 
+			margin-top: 15px;
+		}
+		.img9 { 	
+			margin-top: 5px !important; 
+		}
+
+		.pics_in_a_row, 
+		.pics_in_a_row2, 
+		.pics_in_a_row3 {
+			margin: 30px 0 !important;
+		}
 
 	}
 
@@ -4377,63 +4364,99 @@ input, select, textarea {
 		margin-top: 20px;
 	}
 
+
 	/* Select Clients */
 
-	.red-bull,
-	.roots,
-	.vice,
-	.plus,
-	.uber,
-	.ritz {
-		width: 150px;
-		margin: 5px;
-		margin-top: 20px;
-	}
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
 
-	.raptors {
-		width: 200px;
-		margin-left: -10px;
-		margin-top: 10px;
-	}
+.pics_in_a_row,
+.pics_in_a_row2,
+.pics_in_a_row3 {
+  display: flex;
+}
 
-	.lost {
-		width: 250px;
-		margin-left: -50px;
-		margin-top: 10px;
-	}
+.img1 { 
+	flex: 1.45;
+	margin-top: 30px;
+}
+.img2 { 
+	flex: 1.3344;
+	margin-top: 20px; 
+}
+.img3 { 
+	flex: 1.4; 
+}
+.img4 { 
+	flex: 1.4;
+	margin-top: 45px; 
+}
+.img5 { 
+	flex: 1.6; 
+	margin-top: 45px; 
+}
+.img6 { 
+	flex: 2.5;
+	margin-top: 25px;
+}
+.img7 { 
+	flex: 2.5; 
+	margin-top: 25px;
+}
+.img8 { 
+	flex: 2.5;
+}
+.img9 { 
+	flex: 0.8;
+	margin-top: 20px; 
+}
+.img10 { 
+	flex: 0.5; 
+}
 
-	.roots {
-		position: relative;
-		top: 5px;
-	}
+.container,
+.container3 {
+  background: white;
+  margin: 0 auto;
+  width: 100%;
+}
 
-	.vice {
-		position: relative;
-		bottom: 10px;
-	}
+.container2 {
+	background: white;
+  margin: 0 auto;
+  width: 80%;
+}
 
-	.plus {
-		position: relative;
-		top: 30px;
-	}
+.container3 {
+	background: white;
+  margin: 0 auto;
+  width: 50%;
+}
 
-	.uber {
-		position: relative;
-		bottom: 13px;
-	}
+.pics_in_a_row,
+.pics_in_a_row2,
+.pics_in_a_row3 {
+  margin: 50px 0;
+}
 
-	.raptors {
-		position: relative;
-		top: 25px;
-	}
+.pics_in_a_row > div:not(:last-child) {
+  margin-right: 10%;
+}
 
-	.client-images {
-		width: 80%;
-		text-align: center;
-    margin-right: 10%;
-		margin-left: 10%;
-		margin-top: -20px;
-	}
+.pics_in_a_row2 > div:not(:last-child) {
+  margin-right: 20%;
+}
+
+.pics_in_a_row3 > div:not(:last-child) {
+  margin-right: 35%;
+}
+
+
+
+
 
 
 
