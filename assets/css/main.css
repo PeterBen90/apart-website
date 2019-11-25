@@ -3664,11 +3664,11 @@ input, select, textarea {
 
 /* Wrapper */
 
-	#wrapper > * {
+	/* #wrapper > * {
 		padding: 5em 0 3em 0 ;
 		border-bottom: solid 2px #eaeaea;
 		overflow: hidden;
-	}
+	} */
 
 		#wrapper > * > .inner {
 			margin: 0 auto;
@@ -3679,7 +3679,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		#wrapper > * {
-			padding: 3.75em 0 1.75em 0 ;
+			padding: 0 0 1.75em 0 ;
 		}
 
 	}
@@ -4061,6 +4061,31 @@ input, select, textarea {
 	
 }
 
+.contact {
+	background-color: black;
+	color: rgba(255, 255, 255, 0.75);
+	padding: 8em 0 6em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	),url("images/design.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;
+	
+}
 
 
 	.photography .inner {
@@ -4119,6 +4144,20 @@ input, select, textarea {
 		z-index: 2;
 	}
 
+	.contact .inner {
+		-moz-transform: scale(1.0);
+		-webkit-transform: scale(1.0);
+		-ms-transform: scale(1.0);
+		transform: scale(1.0);
+		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+		transition: opacity 1s ease, transform 1s ease;
+		opacity: 1;
+		position: relative;
+		z-index: 2;
+	}
+
 	.photography h1 {
 		font-size: 2.75em;
 		margin-top: 20px;
@@ -4130,6 +4169,11 @@ input, select, textarea {
 	}
 
 	.design h1 {
+		font-size: 2.75em;
+		margin-top: 20px;
+	}
+
+	.contact h1 {
 		font-size: 2.75em;
 		margin-top: 20px;
 	}
@@ -4180,6 +4224,10 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.contact .inner {
+				width: 100%;
+			}
+
 			.clients .inner {
 				width: 100%;
 			}
@@ -4198,6 +4246,12 @@ input, select, textarea {
 			}
 
 			.design h1 {
+				font-size: 3.5em;
+				margin-bottom: 0.2em;
+				padding-bottom: 0.5em;
+			}
+
+			.contact h1 {
 				font-size: 3.5em;
 				margin-bottom: 0.2em;
 				padding-bottom: 0.5em;
@@ -4236,6 +4290,10 @@ input, select, textarea {
 				display: none;
 			}
 
+			.contact br {
+				display: none;
+			}
+
 			.clients br {
 				display: none;
 			}
@@ -4247,7 +4305,8 @@ input, select, textarea {
 		.photography, 
 		.videography,
 		.design,
-		.clients {
+		.clients,
+		.contact {
 			padding: 18em 2em 16em 2em ;
 		}
 
@@ -4260,6 +4319,10 @@ input, select, textarea {
 		.sub-header {
 			text-align: center;
 			margin-top: 40% !important;
+		}
+
+		.contact-header {
+			text-align: center;
 		}
 
 		.client-header {
@@ -4301,6 +4364,12 @@ input, select, textarea {
 		}
 
 		.design h1 {
+			font-size: 2em;
+			margin-bottom: 0.2em;
+			padding-bottom: 0.5em;
+		}
+
+		.contact h1 {
 			font-size: 2em;
 			margin-bottom: 0.2em;
 			padding-bottom: 0.5em;
@@ -4354,7 +4423,8 @@ input, select, textarea {
 		.photography,
 		.videography,
 		.design,
-		.clients {
+		.clients,
+		.contact {
 			padding: 18em 2em 16em 2em ;
 		}
 
@@ -4452,6 +4522,16 @@ img {
 
 .pics_in_a_row3 > div:not(:last-child) {
   margin-right: 35%;
+}
+
+/* Form */
+
+#name,
+#email,
+#category,
+#message {
+	background-color: #fff;
+	color: #777777;
 }
 
 
