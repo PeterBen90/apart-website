@@ -3880,82 +3880,6 @@ input, select, textarea {
 	bottom: 3px;
 }
 
-/* .photography {
-	background: url(images/creative.jpg) no-repeat center center fixed; 
-	-webkit-background-size: 100%; 
-	-moz-background-size: 100%; 
-	-o-background-size: 100%; 
-	background-size: 100%; 
-	-webkit-background-size: cover; 
-	-moz-background-size: cover; 
-	-o-background-size: cover; 
-	background-size: cover;
-}
-
-.videography {
-	background: url(images/video.jpeg) no-repeat center center fixed; 
-	-webkit-background-size: 100%; 
-		-moz-background-size: 100%; 
-		-o-background-size: 100%; 
-		background-size: 100%; 
-		-webkit-background-size: cover; 
-		-moz-background-size: cover; 
-		-o-background-size: cover; 
-		background-size: cover;
-}
-
-.design {
-	background: url(images/design.jpg) no-repeat center center fixed; 
-	-webkit-background-size: 100%; 
-		-moz-background-size: 100%; 
-		-o-background-size: 100%; 
-		background-size: 100%; 
-		-webkit-background-size: cover; 
-		-moz-background-size: cover; 
-		-o-background-size: cover; 
-		background-size: cover;
-} */
-
-
-#five {
-	height: 200px !important;
-}
-
-
-/* @media (max-width: 480px) {
-	.photography {
-		-webkit-background-size: 100%; 
-		-moz-background-size: 100%; 
-		-o-background-size: 100%; 
-		background-size: 100%; 
-		-webkit-background-size: auto; 
-		-moz-background-size: auto; 
-		-o-background-size: auto; 
-		background-size: auto;
-	}
-
-	.videography {
-		-webkit-background-size: 100%; 
-		-moz-background-size: 100%; 
-		-o-background-size: 100%; 
-		background-size: 100%; 
-		-webkit-background-size: auto; 
-		-moz-background-size: auto; 
-		-o-background-size: auto; 
-		background-size: auto;
-	}
-
-	.design {
-		-webkit-background-size: 100%; 
-		-moz-background-size: 100%; 
-		-o-background-size: 100%; 
-		background-size: 100%; 
-		-webkit-background-size: auto; 
-		-moz-background-size: auto; 
-		-o-background-size: auto; 
-		background-size: auto;
-	}
-} */
 
 /* Photography Videography Design */
 
@@ -4180,7 +4104,7 @@ input, select, textarea {
 
 	.clients h1 {
 		font-size: 2.75em;
-		margin-top: 20px;
+		margin-bottom: 20px;
 		color: black;
 		text-align: center;
 	}
@@ -4196,7 +4120,8 @@ input, select, textarea {
 		border-top: 2px solid black;
 		text-align: center;
     margin-left: 30%;
-    margin-right: 30%;
+		margin-right: 30%;
+		margin-bottom: 30px;
 	}
 
 
@@ -4509,7 +4434,7 @@ img {
 .pics_in_a_row,
 .pics_in_a_row2,
 .pics_in_a_row3 {
-  margin: 50px 0;
+  margin: 20px 0;
 }
 
 .pics_in_a_row > div:not(:last-child) {
