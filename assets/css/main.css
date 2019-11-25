@@ -4530,9 +4530,11 @@ img {
 #email,
 #category,
 #message {
-	background-color: #fff;
-	color: #777777;
+	background-color: rgba(255, 255, 255, 0.75);
+	color: black;
 }
+
+
 
 
 

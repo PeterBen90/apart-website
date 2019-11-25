@@ -1,126 +1,121 @@
-
 (function($) {
+  var $window = $(window),
+    $body = $('body');
 
-	var	$window = $(window),
-		$body = $('body');
+  // Breakpoints.
+  breakpoints({
+    xlarge: ['1281px', '1680px'],
+    large: ['981px', '1280px'],
+    medium: ['737px', '980px'],
+    small: ['481px', '736px'],
+    xsmall: ['361px', '480px'],
+    xxsmall: [null, '360px']
+  });
 
-	// Breakpoints.
-		breakpoints({
-			xlarge:   [ '1281px',  '1680px' ],
-			large:    [ '981px',   '1280px' ],
-			medium:   [ '737px',   '980px'  ],
-			small:    [ '481px',   '736px'  ],
-			xsmall:   [ '361px',   '480px'  ],
-			xxsmall:  [ null,      '360px'  ]
-		});
+  // Play initial animations on page load.
+  $window.on('load', function() {
+    window.setTimeout(function() {
+      $body.removeClass('is-preload');
+    }, 100);
+  });
 
-	// Play initial animations on page load.
-		$window.on('load', function() {
-			window.setTimeout(function() {
-				$body.removeClass('is-preload');
-			}, 100);
-		});
+  // Menu.
+  $('#menu')
+    .append('<a href="#menu" class="close"></a>')
+    .appendTo($body)
+    .panel({
+      visibleClass: 'is-menu-visible',
+      target: $body,
+      delay: 500,
+      hideOnClick: true,
+      hideOnSwipe: true,
+      resetScroll: true,
+      resetForms: true,
+      side: 'right'
+    });
 
-	// Menu.
-		$('#menu')
-			.append('<a href="#menu" class="close"></a>')
-			.appendTo($body)
-			.panel({
-				visibleClass: 'is-menu-visible',
-				target: $body,
-				delay: 500,
-				hideOnClick: true,
-				hideOnSwipe: true,
-				resetScroll: true,
-				resetForms: true,
-				side: 'right'
-			});
+  // Banner.
+  var $banner = $('#banner'),
+    $header = $('#header');
 
-	// Banner.
-		var $banner = $('#banner'),
-			$header = $('#header');
+  if ($banner.length > 0) {
+    // IE: Height fix.
+    if (browser.name == 'ie') {
+      breakpoints.on('>small', function() {
+        $banner.css('height', '100vh');
+      });
 
-		if ($banner.length > 0) {
+      breakpoints.on('<=small', function() {
+        $banner.css('height', '');
+      });
+    }
 
-			// IE: Height fix.
-				if (browser.name == 'ie') {
+    // More button.
+    $banner.find('.more').addClass('scrolly');
 
-					breakpoints.on('>small', function() {
-						$banner.css('height', '100vh');
-					});
+    // Header.
+    $header.addClass('with-banner').addClass('alt');
 
-					breakpoints.on('<=small', function() {
-						$banner.css('height', '');
-					});
+    $banner.scrollex({
+      mode: 'top',
+      top: '-100vh',
+      bottom: 10,
+      enter: function() {
+        $header.addClass('alt');
+      },
+      leave: function() {
+        $header.removeClass('alt');
+      }
+    });
+  }
 
-				}
+  // Spotlights.
+  var $spotlight = $('.spotlight');
 
-			// More button.
-				$banner.find('.more')
-					.addClass('scrolly');
+  if ($spotlight.length > 0 && browser.canUse('transition'))
+    $spotlight.each(function() {
+      var $this = $(this);
 
-			// Header.
-				$header
-					.addClass('with-banner')
-					.addClass('alt');
+      $this.scrollex({
+        mode: 'middle',
+        top: '-10vh',
+        bottom: '-10vh',
+        initialize: function() {
+          $this.addClass('inactive');
+        },
+        enter: function() {
+          $this.removeClass('inactive');
+        }
+      });
+    });
 
-				$banner.scrollex({
-					mode: 'top',
-					top: '-100vh',
-					bottom: 10,
-					enter: function() { $header.addClass('alt'); },
-					leave: function() { $header.removeClass('alt'); }
-				});
+  // Features.
+  var $features = $('.features');
 
-		}
+  if ($features.length > 0 && browser.canUse('transition'))
+    $features.each(function() {
+      var $this = $(this);
 
+      $this.scrollex({
+        mode: 'middle',
+        top: '-20vh',
+        bottom: '-20vh',
+        initialize: function() {
+          $this.addClass('inactive');
+        },
+        enter: function() {
+          $this.removeClass('inactive');
+        }
+      });
+    });
 
-	// Spotlights.
-		var $spotlight = $('.spotlight');
+  // Scrolly.
+  $('.scrolly').scrolly();
 
-		if ($spotlight.length > 0
-		&&	browser.canUse('transition'))
-			$spotlight.each(function() {
-
-				var $this = $(this);
-
-				$this.scrollex({
-					mode: 'middle',
-					top: '-10vh',
-					bottom: '-10vh',
-					initialize: function() { $this.addClass('inactive'); },
-					enter: function() { $this.removeClass('inactive'); }
-				});
-
-			});
-
-	// Features.
-		var $features = $('.features');
-
-		if ($features.length > 0
-		&&	browser.canUse('transition'))
-			$features.each(function() {
-
-				var $this = $(this);
-
-				$this.scrollex({
-					mode: 'middle',
-					top: '-20vh',
-					bottom: '-20vh',
-					initialize: function() { $this.addClass('inactive'); },
-					enter: function() { $this.removeClass('inactive'); }
-				});
-
-			});
-
-	// Scrolly.
-		$('.scrolly').scrolly();
-
-	// Initial scroll.
-		$window.on('load', function() {
-			$window.trigger('scroll');
-		});
-
+  // Initial scroll.
+  $window.on('load', function() {
+    $window.trigger('scroll');
+  });
 })(jQuery);
 
 // Video Modal Lightbox
@@ -135,9 +130,7 @@ function onYouTubeIframeAPIReady() {
     }
   });
 }
-function initialize(){
-
-}            
+function initialize() {}
 
 function deployVideo() {
   jQuery('.mm-product-video-modal-container').addClass('open');
@@ -159,12 +152,12 @@ jQuery('.mm-video-overlay').on('click', function() {
   destroyVideo();
 });
 
-jQuery('.mm-launch').on('click',function() {
+jQuery('.mm-launch').on('click', function() {
   deployVideo();
 });
 
-$(function () {
-	$.scrollify({
-		section: "section",
-	});
+$(function() {
+  $.scrollify({
+    section: 'section'
+  });
 });
