@@ -4499,11 +4499,402 @@ img {
 	display: inline;
 }
 
+.brust {
+	background-color: black;
+	color: rgba(255, 255, 255, 0.75);
+	padding: 8em 0 6em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	),url("images/brust0-min.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.osmows {
+	background-color: black;
+	color: rgba(255, 255, 255, 0.75);
+	padding: 8em 0 6em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	),url("images/osmows0-min.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;	
+}
+
+.plus {
+	background-color: black;
+	color: rgba(255, 255, 255, 0.75);
+	padding: 8em 0 6em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	),url("images/plus0-min.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;	
+}
+
+.redbull {
+	background-color: black;
+	color: rgba(255, 255, 255, 0.75);
+	padding: 8em 0 6em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	),url("images/redbull0-min.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;	
+}
+
+.concert{
+	background-color: black;
+	color: rgba(255, 255, 255, 0.75);
+	padding: 8em 0 6em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	),url("images/concert3-min.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;	
+}
+
+.roots {
+	background-color: black;
+	color: rgba(255, 255, 255, 0.75);
+	padding: 8em 0 6em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	),url("images/roots0-min.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;	
+}
+
+.sweet-jesus {
+	background-color: black;
+	color: rgba(255, 255, 255, 0.75);
+	padding: 8em 0 6em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	),url("images/SJ0-min.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;	
+}
+
+.ori {
+	background-color: black;
+	color: rgba(255, 255, 255, 0.75);
+	padding: 8em 0 6em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	),url("images/ori0-min.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;	
+}
+
+.underarm {
+	background-color: black;
+	color: rgba(255, 255, 255, 0.75);
+	padding: 8em 0 6em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	),url("images/UA0-min.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;	
+}
+
+.toyota {
+	background-color: black;
+	color: rgba(255, 255, 255, 0.75);
+	padding: 8em 0 6em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	),url("images/toyota0-min.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 0;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;	
+}
+
+.brust .inner,
+.osmows .inner,
+.plus .inner,
+.redbull .inner,
+.concert .inner,
+.roots .inner,
+.sweet-jesus .inner,
+.ori .inner,
+.underarm .inner,
+.toyota .inner {
+	-moz-transform: scale(1.0);
+	-webkit-transform: scale(1.0);
+	-ms-transform: scale(1.0);
+	transform: scale(1.0);
+	-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+	-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+	-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+	transition: opacity 1s ease, transform 1s ease;
+	opacity: 1;
+	position: relative;
+	z-index: 2;
+	margin: 0 auto;
+	max-width: calc(100% - 4em);
+	width: 60em;
+	margin-bottom: 400px;
+}
+
+
+.brust h1,
+.osmows h1,
+.plus h1,
+.redbull h1,
+.concert h1,
+.roots h1,
+.sweet-jesus h1,
+.ori h1,
+.underarm h1,
+.toyota h1 {
+	font-size: 2.75em;
+	margin-top: 20px;
+}
 
 
 
+@media screen and (max-width: 768px) {
+
+	.brust,
+	.osmows,
+	.plus,
+	.redbull,
+	.concert,
+	.roots,
+	.sweet-jesus,
+	.ori,
+	.underarm,
+	.toyota  {
+		padding: 6em 2em 2em 2em ;
+		min-height: 0;
+	}
+
+		.brust .inner,
+		.osmows .inner,
+		.plus .inner,
+		.redbull .inner,
+		.concert .inner,
+		.roots .inner,
+		.sweet-jesus .inner,
+		.ori .inner,
+		.underarm .inner,
+		.toyota .inner {
+			width: 100%;
+		}
 
 
+		.brust h1,
+		.osmows h1,
+		.plus h1,
+		.redbull h1,
+		.concert h1,
+		.roots h1,
+		.sweet-jesus h1,
+		.ori h1,
+		.underarm h1,
+		.toyota h1 {
+			font-size: 3.5em;
+			margin-bottom: 0.2em;
+			padding-bottom: 0.5em;
+			margin-top: 50px;
+		}
+
+
+		.brust br,
+		.osmows br,
+		.plus br,
+		.redbull br,
+		.concert br,
+		.roots br,
+		.sweet-jesus br,
+		.ori br,
+		.underarm br,
+		.toyota br {
+			display: none;
+		}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.brust h1,
+	.osmows h1,
+	.plus h1,
+	.redbull h1,
+	.roots h1,
+	.sweet-jesus h1,
+	.ori h1,
+	.underarm h1,
+	.toyota h1 {
+		font-size: 2em;
+		margin-bottom: 0.2em;
+		padding-bottom: 0.5em;
+		margin-top: 50px;
+	}
+
+}
+
+/* Floating button */
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	color:#0C9;
+	border: 4px solid #0C9;
+	text-align:center;
+}
+
+.float:hover {
+	border-bottom-color: #0C9;
+}
+
+.my-float{
+	margin-top:18px;
+}
 
 
 
