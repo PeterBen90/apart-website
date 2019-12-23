@@ -161,3 +161,11 @@ $(function() {
     section: 'section'
   });
 });
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 0) {
+    $('.float').fadeIn();
+  } else {
+    $('.float').fadeOut();
+  }
+});
