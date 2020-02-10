@@ -3594,7 +3594,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 18em 2em 16em 2em ;
+				padding: 22em 2em 20em 2em ;
 			}
 
 		}
@@ -3672,14 +3672,14 @@ input, select, textarea {
 		#wrapper > * > .inner {
 			margin: 0 auto;
 			max-width: calc(100% - 4em);
-			width: 60em;
-			margin-bottom: 400px;
+			width: 65em;
+			/* margin-bottom: 400px; */
 		}
 
 	@media screen and (max-width: 736px) {
 
 		#wrapper > * {
-			padding: 0 0 1.75em 0 ;
+			padding: 8em 1em 8em 1em ;
 		}
 
 	}
@@ -3898,7 +3898,7 @@ input, select, textarea {
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
-	),url("images/creative.jpg");
+	),url("images/UA0-min.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -3949,7 +3949,7 @@ input, select, textarea {
 	background:linear-gradient(
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
-	), url("images/designheader.jpg");
+	), url("images/plain-black-background.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4133,13 +4133,13 @@ input, select, textarea {
 
 	@media screen and (max-width: 768px) {
 
-		.photography,
+		/* .photography,
 		.videography,
 		.design,
 		.clients {
 			padding: 6em 2em 2em 2em ;
 			min-height: 0;
-		}
+		} */
 
 			.photography .inner {
 				width: 100%;
@@ -4260,9 +4260,9 @@ input, select, textarea {
 			text-align: center;
 		}
 
-		#wrapper > * > .inner {
+		/* #wrapper > * > .inner {
 			margin-bottom: 200px;
-		}
+		} */
 
 		.contact-header {
 			text-align: center;
@@ -4420,7 +4420,8 @@ img {
 	margin-top: 25px;
 }
 .img8 { 
-	flex: 2.5;
+	flex: 1.8;
+	margin-top: 20px;
 }
 .img9 { 
 	flex: 0.8;
@@ -4452,7 +4453,7 @@ img {
 .pics_in_a_row,
 .pics_in_a_row2,
 .pics_in_a_row3 {
-  margin: 20px 0;
+  margin: 50px 0;
 }
 
 .pics_in_a_row > div:not(:last-child) {
@@ -4514,7 +4515,7 @@ img {
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
-	),url("images/brust0-min.jpg");
+	),url("images/brust0.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4540,7 +4541,7 @@ img {
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
-	),url("images/osmows0-min.jpg");
+	),url("images/osmows0.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4600,7 +4601,7 @@ img {
 	overflow: hidden;	
 }
 
-.concert{
+.stone{
 	background-color: black;
 	color: rgba(255, 255, 255, 0.75);
 	padding: 8em 0 6em 0 ;
@@ -4615,7 +4616,7 @@ img {
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
-	),url("images/concert3-min.jpg");
+	),url("images/stone0.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4625,7 +4626,7 @@ img {
 	overflow: hidden;	
 }
 
-.roots {
+.ritz {
 	background-color: black;
 	color: rgba(255, 255, 255, 0.75);
 	padding: 8em 0 6em 0 ;
@@ -4640,7 +4641,7 @@ img {
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
-	),url("images/roots0-min.jpg");
+	),url("images/ritz0.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4740,7 +4741,7 @@ img {
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
-	),url("images/toyota0-min.jpg");
+	),url("images/toyota0.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4754,8 +4755,8 @@ img {
 .osmows .inner,
 .plus .inner,
 .redbull .inner,
-.concert .inner,
-.roots .inner,
+.stone .inner,
+.ritz .inner,
 .sweet-jesus .inner,
 .ori .inner,
 .underarm .inner,
@@ -4782,8 +4783,8 @@ img {
 .osmows h1,
 .plus h1,
 .redbull h1,
-.concert h1,
-.roots h1,
+.stone h1,
+.ritz h1,
 .sweet-jesus h1,
 .ori h1,
 .underarm h1,
@@ -4796,26 +4797,12 @@ img {
 
 @media screen and (max-width: 768px) {
 
-	.brust,
-	.osmows,
-	.plus,
-	.redbull,
-	.concert,
-	.roots,
-	.sweet-jesus,
-	.ori,
-	.underarm,
-	.toyota  {
-		padding: 6em 2em 2em 2em ;
-		min-height: 0;
-	}
-
 		.brust .inner,
 		.osmows .inner,
 		.plus .inner,
 		.redbull .inner,
-		.concert .inner,
-		.roots .inner,
+		.stone .inner,
+		.ritz .inner,
 		.sweet-jesus .inner,
 		.ori .inner,
 		.underarm .inner,
@@ -4828,8 +4815,8 @@ img {
 		.osmows h1,
 		.plus h1,
 		.redbull h1,
-		.concert h1,
-		.roots h1,
+		.stone h1,
+		.ritz h1,
 		.sweet-jesus h1,
 		.ori h1,
 		.underarm h1,
@@ -4845,13 +4832,17 @@ img {
 		.osmows br,
 		.plus br,
 		.redbull br,
-		.concert br,
-		.roots br,
+		.stone br,
+		.ritz br,
 		.sweet-jesus br,
 		.ori br,
 		.underarm br,
 		.toyota br {
 			display: none;
+		}
+
+		.photo-main {
+			margin-bottom: 180px !important;
 		}
 
 }
@@ -4862,8 +4853,8 @@ img {
 	.osmows h1,
 	.plus h1,
 	.redbull h1,
-	.concert h1,
-	.roots h1,
+	.stone h1,
+	.ritz h1,
 	.sweet-jesus h1,
 	.ori h1,
 	.underarm h1,
@@ -4872,6 +4863,12 @@ img {
 		margin-bottom: 0.2em;
 		padding-bottom: 0.5em;
 		margin-top: 50px;
+	}
+
+	.row > .col-9 {
+		margin: 0 auto !important;
+		width: 100% !important;
+	
 	}
 
 }
@@ -4896,6 +4893,63 @@ img {
 .my-float{
 	margin-top:18px;
 }
+
+.fancybox-close-small {
+	right: 0 !important;
+}
+
+.row > .col-9 {
+	margin: 0 auto !important;
+	width: 60%;
+}
+
+.video-header {
+	color: black;
+	margin-top: 50px;
+}
+
+.card-text {
+	margin-bottom: 10em;
+	margin-top: -3em;
+	margin-right: 2em;
+	text-align: right;
+	z-index: 9999999999;
+	color: #fff;
+}
+
+.card-text:hover {
+	color: black;
+	-webkit-transition: max-height 0.4s;
+  -ms-transition: max-height 0.4s;
+  -moz-transition: max-height 0.4s;
+  -o-transition: max-height 0.4s;
+  transition: max-height 0.4s;
+  transition: all 0.4s ease;
+}
+
+.fa-play-circle {
+	margin-left: 5px;
+}
+
+.photo-main {
+	margin-bottom: 400px !important;
+}
+
+
+.card-img-top {
+	box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.services {
+	font-size: 30px;
+}
+
 
 
 
