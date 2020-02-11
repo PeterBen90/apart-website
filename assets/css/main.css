@@ -3686,8 +3686,12 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
-		.contact {
-			margin-bottom: -8em;
+		.clients {
+			margin-bottom: -2em;
+		}
+
+		#wrapper > * {
+			padding: 0 0 8em 0;
 		}
 
 	}
