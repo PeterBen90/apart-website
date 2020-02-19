@@ -55,7 +55,7 @@
 
             	<!-- Form -->
 
-							<form method="post" action="#">
+							<form id="myForm">
 								<div class="row gtr-uniform">
 									<div class="col-6 col-12-xsmall">
 										<input type="text" name="name" id="name" value="" placeholder="Name" />
@@ -66,11 +66,11 @@
 									<!-- Break -->
 									<div class="col-12">
 										<select name="category" id="category" >
-											<option value="">- Subject -</option>
-											<option value="1">Photography</option>
-											<option value="1">Videoography</option>
-											<option value="1">Design</option>
-											<option value="1">Miscellaneous</option>
+											<option value="None">- Subject -</option>
+											<option value="Photography">Photography</option>
+											<option value="Videography">Videography</option>
+											<option value="Design">Design</option>
+											<option value="Miscellaneous">Miscellaneous</option>
 										</select>
 									</div>
 									<!-- Break -->
@@ -80,7 +80,7 @@
 									<!-- Break -->
 									<div class="col-12">
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input id="Form-submit" type="submit" value="Submit" class="primary" /></li>
 											<li><input type="reset" value="Reset" /></li>
 										</ul>
 									</div>
@@ -116,15 +116,6 @@
               </li>
               <li>
                 <a
-                  href="https://www.youtube.com/"
-                  target="_blank"
-                  class="icon alt fa-youtube"
-                >
-                  <span class="label">YouTube</span>
-                </a>
-              </li>
-              <li>
-                <a
                   href="https://www.instagram.com/apartinc/?hl=en"
                   target="_blank"
                   class="icon alt fa-instagram"
@@ -134,7 +125,7 @@
               </li>
               <li>
                 <a
-                  href="mailto:info@apart.to"
+                  href="mailto:info@apartinc.ca"
                   target="_top"
                   class="icon alt fa-envelope"
                 >
@@ -149,6 +140,8 @@
     </div>
 
     <!-- Scripts -->
+    <!-- Load jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>

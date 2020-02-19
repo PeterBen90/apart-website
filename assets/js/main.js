@@ -118,6 +118,20 @@
   });
 })(jQuery);
 
+// POST form data to zapier on submit
+$('#myForm').submit(function(e) {
+  e.preventDefault();
+  $.ajax({
+    url: 'https://hooks.zapier.com/hooks/catch/6752497/ombg3lr/',
+    type: 'post',
+    data: $('#myForm').serialize(),
+    success: function() {
+      // Redirect to another success page
+      window.location = 'https://apart.netlify.com/';
+    }
+  });
+});
+
 // Video Modal Lightbox
 
 function onYouTubeIframeAPIReady() {
