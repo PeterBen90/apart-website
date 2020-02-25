@@ -3662,17 +3662,10 @@ input, select, textarea {
 
 /* Wrapper */
 
-	/* #wrapper > * {
-		padding: 5em 0 3em 0 ;
-		border-bottom: solid 2px #eaeaea;
-		overflow: hidden;
-	} */
-
 		#wrapper > * > .inner {
 			margin: 0 auto;
 			max-width: calc(100% - 4em);
 			width: 65em;
-			/* margin-bottom: 400px; */
 		}
 
 	@media screen and (max-width: 736px) {
@@ -4270,10 +4263,6 @@ input, select, textarea {
 		.galleria {
 			text-align: center;
 		}
-
-		/* #wrapper > * > .inner {
-			margin-bottom: 200px;
-		} */
 
 		.contact-header {
 			text-align: center;
