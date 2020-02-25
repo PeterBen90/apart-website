@@ -3322,7 +3322,6 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background: url("../../film-set/walking-image.png");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
