@@ -4349,9 +4349,9 @@ input, select, textarea {
 		.img4 { 
 			margin-top: 30px !important;			
 		}
-		.img5 { 
-			margin-top: 30px !important;
-		}
+		/* .img5 { 
+			margin-top: 0px !important;
+		} */
 		.img6 { 
 			margin-top: 25px;
 		}
@@ -4420,27 +4420,28 @@ img {
 	margin-top: 45px; 
 }
 .img5 { 
-	flex: 1.6; 
-	margin-top: 45px; 
+	flex: 1.2; 
+	margin-top: 30px; 
 }
 .img6 { 
-	flex: 2.5;
+	flex: 2;
 	margin-top: 25px;
 }
 .img7 { 
-	flex: 2.5; 
+	flex: 2; 
 	margin-top: 25px;
 }
 .img8 { 
-	flex: 1.8;
-	margin-top: 20px;
+	flex: 1.5;
+	margin-top: 25px;
 }
 .img9 { 
 	flex: 0.8;
 	margin-top: 20px; 
 }
 .img10 { 
-	flex: 0.5; 
+	margin-top: 30px; 
+	flex: 0.8; 
 }
 
 .container,
@@ -4663,7 +4664,7 @@ img {
 	overflow: hidden;	
 }
 
-.sweet-jesus {
+.throwback {
 	background-color: black;
 	color: rgba(255, 255, 255, 0.75);
 	padding: 8em 0 6em 0 ;
@@ -4678,7 +4679,7 @@ img {
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
-	),url("images/SJ0-min.jpg");
+	),url("images/throwback0-min.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4769,7 +4770,7 @@ img {
 .redbull .inner,
 .stone .inner,
 .ritz .inner,
-.sweet-jesus .inner,
+.throwback .inner,
 .ori .inner,
 .underarm .inner,
 .toyota .inner {
@@ -4797,7 +4798,7 @@ img {
 .redbull h1,
 .stone h1,
 .ritz h1,
-.sweet-jesus h1,
+.throwback h1,
 .ori h1,
 .underarm h1,
 .toyota h1 {
@@ -4815,7 +4816,7 @@ img {
 		.redbull .inner,
 		.stone .inner,
 		.ritz .inner,
-		.sweet-jesus .inner,
+		.throwback .inner,
 		.ori .inner,
 		.underarm .inner,
 		.toyota .inner {
@@ -4829,7 +4830,7 @@ img {
 		.redbull h1,
 		.stone h1,
 		.ritz h1,
-		.sweet-jesus h1,
+		.throwback h1,
 		.ori h1,
 		.underarm h1,
 		.toyota h1 {
@@ -4846,7 +4847,7 @@ img {
 		.redbull br,
 		.stone br,
 		.ritz br,
-		.sweet-jesus br,
+		.throwback br,
 		.ori br,
 		.underarm br,
 		.toyota br {
@@ -4867,7 +4868,7 @@ img {
 	.redbull h1,
 	.stone h1,
 	.ritz h1,
-	.sweet-jesus h1,
+	.throwback h1,
 	.ori h1,
 	.underarm h1,
 	.toyota h1 {
@@ -4921,34 +4922,26 @@ img {
 }
 
 .card-text {
-	margin-bottom: 10em;
-	margin-top: -3em;
-	margin-right: 2em;
-	text-align: right;
+	margin-bottom: 5em;
+	margin-top: 5em;
+	text-align: center;
 	z-index: 9999999999;
-	color: #fff;
+	color: black;
+}
+
+.card {
+	text-align: center;
+	margin-top: 3em;
 }
 
 .card-text:hover {
-	color: black;
+	color: #8e8e8e;
 	-webkit-transition: max-height 0.4s;
   -ms-transition: max-height 0.4s;
   -moz-transition: max-height 0.4s;
   -o-transition: max-height 0.4s;
   transition: max-height 0.4s;
   transition: all 0.4s ease;
-}
-
-.fa-play-circle {
-	margin-left: 5px;
-}
-
-@media screen and (max-width: 480px) {
-
-	.photo-main {
-		margin-bottom: -100px !important;
-	}
-
 }
 
 
@@ -4976,6 +4969,16 @@ img {
 	background-image: url("images/menu.svg");
 }
 
+.video-header {
+	font-size: 50px;
+}
+
+@media screen and (max-width: 480px) {
+
+	.video-header {
+		font-size: 30px;
+	}
+}
 
 
 
