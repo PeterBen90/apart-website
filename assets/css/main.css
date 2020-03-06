@@ -3322,7 +3322,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url('/cyan/film-set/banner.jpg');
+		/* background-image: url('/cyan/film-set/banner.jpg'); */
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -3549,18 +3549,18 @@ input, select, textarea {
 
 		/* IMPORTANT */
 		@media screen and (max-width: 360px) {
-
+/* 
 			#banner video {
 				display: none;
-			}
+			} */
 
 		}
 
 		@media screen and (max-width: 436px) {
 
-			#banner video {
+			/* #banner video {
 				display: none;
-			}
+			} */
 
 		}
 
@@ -5051,7 +5051,7 @@ img {
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
 	justify-content: center;
-	background-image: url('/cyan/film-set/colors.jpg');
+	/* background-image: url('/cyan/film-set/colors.jpg'); */
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
