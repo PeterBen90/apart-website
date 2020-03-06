@@ -69,6 +69,41 @@
     });
   }
 
+  // Banner.
+  var $banner = $('#banner2'),
+    $header = $('#header');
+
+  if ($banner.length > 0) {
+    // IE: Height fix.
+    if (browser.name == 'ie') {
+      breakpoints.on('>small', function() {
+        $banner.css('height', '100vh');
+      });
+
+      breakpoints.on('<=small', function() {
+        $banner.css('height', '');
+      });
+    }
+
+    // More button.
+    $banner.find('.more').addClass('scrolly');
+
+    // Header.
+    $header.addClass('with-banner').addClass('alt');
+
+    $banner.scrollex({
+      mode: 'top',
+      top: '-100vh',
+      bottom: 10,
+      enter: function() {
+        $header.addClass('alt');
+      },
+      leave: function() {
+        $header.removeClass('alt');
+      }
+    });
+  }
+
   // Spotlights.
   var $spotlight = $('.spotlight');
 
@@ -127,7 +162,7 @@ $('#myForm').submit(function(e) {
     data: $('#myForm').serialize(),
     success: function() {
       // Redirect to another success page
-      window.location = 'https://apart.netlify.com/';
+      window.location = 'https://apartinc.ca/';
     }
   });
 });
