@@ -3322,7 +3322,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url('/cyan/film-set/banner.jpg');
+		background-image: url('film-set/banner.jpg');
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -5051,7 +5051,7 @@ img {
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
 	justify-content: center;
-	background-image: url('/cyan/film-set/colors.jpg');
+	background-image: url('film-set/colors.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
