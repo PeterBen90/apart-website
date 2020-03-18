@@ -3307,7 +3307,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-color: black;
+		/* background-color: black; */
 		color: rgba(255, 255, 255, 0.75);
 		padding: 8em 0 6em 0 ;
 		-moz-align-items: center;
@@ -3322,7 +3322,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		/* background-image: url('/cyan/film-set/banner.jpg'); */
+		background-image: url('/cyan/film-set/banner.jpg');
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -3549,18 +3549,18 @@ input, select, textarea {
 
 		/* IMPORTANT */
 		@media screen and (max-width: 360px) {
-/* 
+
 			#banner video {
 				display: none;
-			} */
+			}
 
 		}
 
 		@media screen and (max-width: 436px) {
 
-			/* #banner video {
+			#banner video {
 				display: none;
-			} */
+			}
 
 		}
 
@@ -5036,7 +5036,7 @@ img {
 /* BANNER 2 */
 
 #banner2 {
-	background-color: black;
+	/* background-color: black; */
 	color: rgba(255, 255, 255, 0.75);
 	padding: 8em 0 6em 0 ;
 	-moz-align-items: center;
@@ -5051,7 +5051,7 @@ img {
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
 	justify-content: center;
-	/* background-image: url('/cyan/film-set/colors.jpg'); */
+	background-image: url('/cyan/film-set/colors.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -5323,7 +5323,7 @@ img {
 	@media screen and (max-width: 480px) {
 
 		#banner2 {
-			padding: 22em 2em 20em 2em ;
+			padding: 12em 2em 12em 2em;
 		}
 
 	}
@@ -5331,7 +5331,7 @@ img {
 	@media screen and (max-width: 360px) {
 
 		#banner2 {
-			padding: 18em 2em 16em 2em ;
+			padding: 16em 2em 16em 2em ;
 		}
 		
 
