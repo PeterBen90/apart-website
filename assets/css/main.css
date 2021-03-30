@@ -4217,6 +4217,10 @@ body.is-preload #banner .more {
 			min-height: 0;
 		} */
 
+	.clients {
+		min-height: auto;
+	}
+
 	.photography .inner {
 		width: 100%;
 	}
@@ -4311,6 +4315,10 @@ body.is-preload #banner .more {
 	.clients,
 	.contact {
 		padding: 18em 2em 16em 2em;
+	}
+
+	.clients {
+		min-height: auto;
 	}
 
 	.client-images {
