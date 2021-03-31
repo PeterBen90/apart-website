@@ -4185,6 +4185,7 @@ body.is-preload #banner .more {
 	margin-bottom: 20px;
 	color: black;
 	text-align: center;
+	font-weight: bold;
 }
 
 .sub-title {
@@ -4195,7 +4196,7 @@ body.is-preload #banner .more {
 
 .sub-title-clients {
 	width: 40%;
-	border-top: 2px solid black;
+	border-top: 4px solid black;
 	text-align: center;
 	margin-left: 30%;
 	margin-right: 30%;
@@ -4270,6 +4271,7 @@ body.is-preload #banner .more {
 		font-size: 3.5em;
 		margin-bottom: 0.2em;
 		padding-bottom: 0.5em;
+		font-weight: bold;
 	}
 
 	.sub-title {
@@ -4281,7 +4283,7 @@ body.is-preload #banner .more {
 
 	.sub-title-clients {
 		width: 70%;
-		border-top: 2px solid black;
+		border-top: 4px solid black;
 		padding-top: 30px;
 		margin-left: 15%;
 		margin-right: 15%;
@@ -4363,7 +4365,7 @@ body.is-preload #banner .more {
 
 	.sub-title-clients {
 		width: 80%;
-		border-top: 2px solid black;
+		border-top: 4 px solid black;
 		padding-top: 30px;
 		text-align: center;
 		font-size: 1em;
