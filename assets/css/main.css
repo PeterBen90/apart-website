@@ -4778,7 +4778,7 @@ img {
 	overflow: hidden;
 }
 
-.toyota {
+.blue-sage {
 	background-color: black;
 	color: rgba(255, 255, 255, 0.75);
 	padding: 8em 0 6em 0;
@@ -4791,7 +4791,7 @@ img {
 	-ms-justify-content: center;
 	justify-content: center;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url('images/toyota0.jpg');
+		url('images/HEADER-min.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4810,7 +4810,7 @@ img {
 .throwback .inner,
 .ori .inner,
 .underarm .inner,
-.toyota .inner {
+.blue-sage .inner {
 	-moz-transform: scale(1);
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
@@ -4837,7 +4837,7 @@ img {
 .throwback h1,
 .ori h1,
 .underarm h1,
-.toyota h1 {
+.blue-sage h1 {
 	font-size: 2.75em;
 	margin-top: 20px;
 }
@@ -4852,7 +4852,7 @@ img {
 	.throwback .inner,
 	.ori .inner,
 	.underarm .inner,
-	.toyota .inner {
+	.blue-sage .inner {
 		width: 100%;
 	}
 
@@ -4865,7 +4865,7 @@ img {
 	.throwback h1,
 	.ori h1,
 	.underarm h1,
-	.toyota h1 {
+	.blue-sage h1 {
 		font-size: 3.5em;
 		margin-bottom: 0.2em;
 		padding-bottom: 0.5em;
@@ -4881,7 +4881,7 @@ img {
 	.throwback br,
 	.ori br,
 	.underarm br,
-	.toyota br {
+	.blue-sage br {
 		display: none;
 	}
 
@@ -4900,7 +4900,7 @@ img {
 	.throwback h1,
 	.ori h1,
 	.underarm h1,
-	.toyota h1 {
+	.blue-sage h1 {
 		font-size: 2em;
 		margin-bottom: 0.2em;
 		padding-bottom: 0.5em;
